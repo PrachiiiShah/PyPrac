@@ -8,5 +8,3 @@ num.remove(max(num))
 
 print(max(num))
 
-# mai gyu have na thy to
-# sdfsdfsd
