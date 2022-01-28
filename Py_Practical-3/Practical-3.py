@@ -33,16 +33,8 @@ Explanation: The list of room numbers contains 31 elements. Since K is 5, there 
 Hence,  8 is the Captain's room number."""
 
 n = int(input())
-
-room = map(int, input().split())
-room = sorted(room)
-
-
-for i in range(len(room)):
-    if i != len(room) - 1:
-        if room[i] != room[i + 1] and room[i] != room[i + 1]:
-            print(room[i])
-            break
-    else:
-        print(room[i])
-# completeksdfb
+room_number_list = list(map(int, input().split()))
+room=set(room_number_list)
+for i in room:
+    if room_number_list.count(i)==1:
+        print(i)
