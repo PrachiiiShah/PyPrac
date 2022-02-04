@@ -7,11 +7,11 @@ def swap_case(s):
     Output = '';
     for char in s:
         if(char.isupper()==True):
-            Output =Output + (char.lower());
+            Output = Output + (char.lower());
         elif(char.islower()==True):
-             Output =Output + (char.upper());
+             Output = Output + (char.upper());
         else:
-             Output =Output + char;
+             Output = Output + char;
     return Output;
   
 
