@@ -1,5 +1,6 @@
 #20CE133 - Prachi Shah
 
+"""Write a Program in Python to implement a Stack Data Structure using Class and Objects, with push, pop, and traversal method."""
 class node:
     def __init__(self, data, next):
         self.data = data
