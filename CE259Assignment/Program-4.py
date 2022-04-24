@@ -5,12 +5,12 @@ Sample Output 1
 3"""
 
 from itertools import combinations
-
-num = [int(n) for n in input("Enter an array: ").split()]
-k = int(input("Enter the sumation you want to check combination about: "))
-cnt = 0
-for i in range(1, len(num)+1):
-    for c in combinations(num, i):
+numbers = list(map(int, input().split(' ')))
+k = int(input())
+count = 0
+for i in range(1, len(numbers)+1):
+    for c in combinations(numbers, i):
         if sum(c) == k:
-            cnt += 1
-print(cnt)
+            count += 1
+print(count)
+print("Prachi Shah - 20CE133")

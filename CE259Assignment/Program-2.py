@@ -23,3 +23,4 @@ print(mean)
 
 print(stdeviation)
 print("Variance of sample set is % s"%(statistics.variance(sr)))
+print("Prachi Shah - 20CE133")

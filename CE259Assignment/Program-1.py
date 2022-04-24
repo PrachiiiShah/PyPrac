@@ -20,3 +20,4 @@ def char_frequency(s1):
 str = input("Enter a string: ")
 print(char_frequency(str))
 
+print("Prachi Shah - 20CE133")

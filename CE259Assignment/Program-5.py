@@ -46,7 +46,8 @@ print (math.exp(1000))
 
 5.	exception IndexError
 An IndexError is raised when a sequence is referenced which is out of range.
-"""
+
 
 array = [ 0, 1, 2 ]
 print (array[3])
+"""

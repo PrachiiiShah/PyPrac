@@ -17,3 +17,4 @@ a = [int(n) for n in input("Enter an array: ").split()]
  
 len1 = len(a)
 print(maxArea(a, len1))
+print("Prachi Shah - 20CE133")
